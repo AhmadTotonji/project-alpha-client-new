@@ -1,0 +1,277 @@
+export const ServicesNewData = [
+    {
+        id: 1,
+        name: "Maid",
+        desc: "an unmarried girl or woman especially when young",
+        img: "https://i.ibb.co/f0Dn90H/maid.jpg",
+        provider: [
+            {
+                id: 1,
+                name: "Munira Aktar",
+                img: "https://i.ibb.co/VStRqcB/maid-1.jpg",
+                exp: 2,
+                idNo: "M0001",
+                phone: "+8801774XXXX04",
+                perHour: 7,
+                perDay: 55,
+                perMonth: 1400,
+                rating: 4
+            },
+            {
+                id: 2,
+                name: "Sahazana Katun",
+                img: "https://i.ibb.co/4YfwrK4/maid-2.jpg",
+                exp: 4,
+                idNo: "M0002",
+                phone: "+8801774XXXX04",
+                perHour: 6,
+                perDay: 45,
+                perMonth: 1300,
+                rating: 5
+            },
+            {
+                id: 3,
+                name: "Nazmun Nahar",
+                img: "https://i.ibb.co/VwCCJ7D/maid-3.jpg",
+                exp: 2,
+                idNo: "M0003",
+                phone: "+8801774XXXX04",
+                perHour: 5,
+                perDay: 40,
+                perMonth: 1000,
+                rating: 3
+            }
+        ]
+    },
+    {
+        id: 2,
+        name: "Nurse",
+        desc: " a person who cares for the sick or infirm",
+        img: "https://i.ibb.co/Rjtm6fC/nurse.jpg",
+        provider: [
+            {
+                id: 1,
+                name: "Nishi Dikha",
+                img: "https://i.ibb.co/Gp5hgKx/nurse-1.webp",
+                exp: 3,
+                idNo: "N0001",
+                phone: "+8801774XXXX04",
+                perHour: 5,
+                perDay: 42,
+                perMonth: 1100,
+                rating: 4
+            },
+            {
+                id: 2,
+                name: "Rifat Mishu",
+                img: "https://i.ibb.co/j8PDMRQ/nurse-2.jpg",
+                exp: 5,
+                idNo: "N0002",
+                phone: "+8801774XXXX04",
+                perHour: 7,
+                perDay: 55,
+                perMonth: 1450,
+                rating: 5
+            },
+            {
+                id: 3,
+                name: "Jui Tasnim",
+                img: "https://i.ibb.co/N7QZCqn/nurse-3.webp",
+                exp: 2,
+                idNo: "N0003",
+                phone: "+8801774XXXX04",
+                perHour: 4,
+                perDay: 30,
+                perMonth: 800,
+                rating: 2
+            }
+        ]
+    },
+    {
+        id: 3,
+        name: "Governess",
+        desc: "a woman employed as a private tutor",
+        img: "https://i.ibb.co/zG8B9TF/governess.webp",
+        provider: [
+            {
+                id: 1,
+                name: "Sharjina Asha",
+                img: "https://i.ibb.co/jTBpKJr/gv-1.webp",
+                exp: 3,
+                idNo: "G0001",
+                phone: "+8801774XXXX04",
+                perHour: 7,
+                perDay: 55,
+                perMonth: 1400,
+                rating: 5
+            },
+            {
+                id: 2,
+                name: "Nasiba Khan",
+                img: "https://i.ibb.co/gW5gGsS/gv-2.webp",
+                exp: 5,
+                idNo: "G0002",
+                phone: "+8801774XXXX04",
+                perHour: 10,
+                perDay: 70,
+                perMonth: 1700,
+                rating: 3
+            },
+            {
+                id: 3,
+                name: "Tuba Fardin",
+                img: "https://i.ibb.co/S097kxC/gv-3.jpg",
+                exp: 2,
+                idNo: "G0003",
+                phone: "+8801774XXXX04",
+                perHour: 6,
+                perDay: 45,
+                perMonth: 1320,
+                rating: 1
+            }
+        ]
+    },
+    {
+        id: 4,
+        name: "Cook",
+        desc: "a person whose job is to prepare and cook food",
+        img: "https://i.ibb.co/25CQQfw/cook.jpg",
+        provider: [
+            {
+                id: 1,
+                name: "Mithun Hasan",
+                img: "https://i.ibb.co/0VGQQKc/cook-1.jpg",
+                exp: 3,
+                idNo: "C0001",
+                phone: "+8801774XXXX04",
+                perHour: 7,
+                perDay: 55,
+                perMonth: 1400,
+                rating: 4
+            },
+            {
+                id: 2,
+                name: "Morium Begum",
+                img: "https://i.ibb.co/cTW7NTF/cook-3.webp",
+                exp: 5,
+                idNo: "C0002",
+                phone: "+8801774XXXX04",
+                perHour: 12,
+                perDay: 80,
+                perMonth: 1850,
+                rating: 5
+            },
+            {
+                id: 3,
+                name: "Ferdus Ara",
+                img: "https://i.ibb.co/t2nWv42/cook-2.jpg",
+                exp: 1,
+                idNo: "C0003",
+                phone: "+8801774XXXX04",
+                perHour: 5,
+                perDay: 37,
+                perMonth: 1220,
+                rating: 1
+            }
+        ]
+    },
+    {
+        id: 5,
+        name: "Babysitter",
+        desc: "a person hired to take care of a child or children",
+        img: "https://i.ibb.co/2jzQ091/babysitter1.jpg",
+        provider: [
+            {
+                id: 1,
+                name: "Nabila Zannat",
+                img: "https://i.ibb.co/87pygQR/bb-1.jpg",
+                exp: 3,
+                idNo: "B0001",
+                phone: "+8801774XXXX04",
+                perHour: 7,
+                perDay: 55,
+                perMonth: 1400,
+                rating: 4
+            },
+            {
+                id: 2,
+                name: "Piyushi Thakur",
+                img: "https://i.ibb.co/7KbP3zf/bb-2.jpg",
+                exp: 5,
+                idNo: "B0002",
+                phone: "+8801774XXXX04",
+                perHour: 8,
+                perDay: 60,
+                perMonth: 1500,
+                rating: 5
+            },
+            {
+                id: 3,
+                name: "Shamima Kobir",
+                img: "https://i.ibb.co/27fztN0/bb-3.jpg",
+                exp: 4,
+                idNo: "B0003",
+                phone: "+8801774XXXX04",
+                perHour: 6,
+                perDay: 50,
+                perMonth: 1470,
+                rating: 2
+            }
+        ]
+    },
+    {
+        id: 6,
+        name: "Driver",
+        desc: "a person who drives a vehicle",
+        img: "https://i.ibb.co/4gv0X52/driver.jpg",
+        provider: [
+            {
+                id: 1,
+                name: "Zikrul Apon",
+                img: "https://i.ibb.co/Ss38yZC/driver-1.webp",
+                exp: 3,
+                idNo: "D0001",
+                phone: "+8801774XXXX04",
+                perHour: 7,
+                perDay: 55,
+                perMonth: 1400,
+                rating: 4
+            },
+            {
+                id: 2,
+                name: "Umme Kulsum",
+                img: "https://i.ibb.co/M2H62MS/driver-2.jpg",
+                exp: 5,
+                idNo: "D0002",
+                phone: "+8801774XXXX04",
+                perHour: 13,
+                perDay: 90,
+                perMonth: 1980,
+                rating: 5
+            },
+            {
+                id: 3,
+                name: "Rifat Rosid",
+                img: "https://i.ibb.co/kBY9tCw/driver-3.jpg",
+                exp: 2,
+                idNo: "D0003",
+                phone: "+8801774XXXX04",
+                perHour: 7,
+                perDay: 57,
+                perMonth: 1630,
+                rating: 2
+            }
+        ]
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
